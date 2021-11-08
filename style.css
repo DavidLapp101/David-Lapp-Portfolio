@@ -1,0 +1,52 @@
+html{
+    font-family: 'Lato', sans-serif;
+    background-color: whitesmoke;
+}
+*, *:before, *:after {box-sizing: border-box; padding: 0; margin: 0;}
+
+.head{
+    background-image: linear-gradient(to right, #766dff, #88f3ff);
+    height: 100vh;
+}
+
+.anchor:link, .anchor:visited{
+    color: white;
+    text-decoration: none;
+    font-size: 20;
+}
+.anchor:hover, .anchor:active{
+    color: white;
+    text-decoration: none;
+    font-size: 20;
+}
+
+.Nav-bar{
+    display: flex;
+    padding: 5vh 0 15vh 0;
+}
+.david{
+    padding: 0 5% 0 13%;
+}
+.home{
+    padding: 0 5% 0 50%;
+}
+.main-header{
+    margin: auto;
+    width: 75%;
+    height: 100vh;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+}
+.self-photo{
+    border: 3px solid red;
+    height: 93%;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    width: 55%;
+}
+.right-flex{
+    border: 3px solid blue;
+    height: 93%;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    width: 35%;
+}
