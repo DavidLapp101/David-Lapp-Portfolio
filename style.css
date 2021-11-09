@@ -1,4 +1,5 @@
 html{
+    min-width: 800px;
     font-family: 'Lato', sans-serif;
     background-color: whitesmoke;
 }
@@ -68,7 +69,7 @@ html{
 
 .projects{
     padding: 40vh 20% 0 20%;
-    height: 120vh;
+    height: 140vh;
 }
 .project-title{
     font-size: 2rem;
@@ -78,22 +79,45 @@ html{
 .project-flex-parent{
     display:flex;
     flex-direction: column;
+    padding-bottom: 20vh;
 }
-.projct-flex-child{
+.project-flex-child{
     display: flex;
+    height: 40vh;
+    margin-top: 8vh;
 }
 .project-icon{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    margin: auto;
+}
 
+.picture-box{
+    height: 100%;
+    width: 100%;
 }
 .picture-link{
-    display: block;
-    border: 1px solid black;
-    height: 20vh;
-    width: 20vh;
+    height: auto;
+    width: 100%;
     border-radius: 50%;
-    background: url(images/ttt.PNG);
-    background-size: cover;
 }
+
+.picture-link:link, .picture-link:visted{
+    height: auto;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+.picture-link:hover{
+    height: auto;
+    width: 100%;
+    border: 3px solid grey;
+    border-radius: 50%;
+}
+
+
 .project-description{
     text-align: center;
 }
