@@ -178,7 +178,7 @@ html{
 .resume-main{
     margin: auto;
     width: 75%;
-    height: 150vh;
+    height: 190vh;
     background-color: white;
     border-radius: 25px;
 }
@@ -227,30 +227,44 @@ html{
 
 .work-parent{
     display: flex;
-    border: 2px solid red;
     width: 75%;
-    height: 50vh;
+    height: 60vh;
     margin: auto;
 }
 .work-left{
-    border: 2px solid blue;
     width: 25%;
     height: 100%;
 }
 .work-right{
-    border: 2px solid green;
     width: 75%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 .GSV-box{
-    border: 2px solid orange;
     width: 100%;
-    height: 45%;
+    height: 65%;
 }
 .IU13-box{
-    border: 2px solid black;
     width: 100%;
-    height: 55%;
+    height: 35%;
 }
+
+.vol-parent{
+    display: flex;
+    width: 75%;
+    height: 20vh;
+    margin: auto;
+}
+.vol-left{
+    width: 25%;
+    height: 100%;
+}
+.vol-right{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
