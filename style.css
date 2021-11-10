@@ -169,6 +169,7 @@ html{
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .resume-body{
     background-image: linear-gradient(to right, #766dff, #88f3ff);
+    font-size: 1.2rem;
 }
 .resume-header{
     background-image: linear-gradient(to right, #766dff, #88f3ff);
@@ -177,7 +178,7 @@ html{
 .resume-main{
     margin: auto;
     width: 75%;
-    height: 150vh;
+    height: 190vh;
     background-color: white;
     border-radius: 25px;
 }
@@ -193,3 +194,77 @@ html{
 .space-under{
     margin-bottom: 5px;
 }
+.heading{
+    font-weight: 600;
+}
+.edu-flex-parent{
+    display: flex;
+    width: 75%;
+    height: 50vh;
+    margin: auto;
+}
+.edu-left{
+    width: 25%;
+    height: 100%;
+}
+.edu-right{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.college-box{
+    width: 100%;
+    height: 45%;
+}
+.high-school-box{
+    width: 100%;
+    height: 55%;
+}
+.list{
+    margin: 0 0 0 10%;
+}
+
+.work-parent{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: auto;
+}
+.work-left{
+    width: 25%;
+    height: 100%;
+}
+.work-right{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.GSV-box{
+    width: 100%;
+    height: 65%;
+}
+.IU13-box{
+    width: 100%;
+    height: 35%;
+}
+
+.vol-parent{
+    display: flex;
+    width: 75%;
+    height: 20vh;
+    margin: auto;
+}
+.vol-left{
+    width: 25%;
+    height: 100%;
+}
+.vol-right{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
