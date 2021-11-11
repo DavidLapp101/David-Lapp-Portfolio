@@ -1,8 +1,9 @@
 html{
-    min-width: 800px;
+    height: 100%;
     font-family: 'Lato', sans-serif;
     background-color: whitesmoke;
 }
+
 *, *:before, *:after {box-sizing: border-box; padding: 0; margin: 0;}
 
 
@@ -72,10 +73,13 @@ html{
     display: flex;
 }
 .self-photo{
-    border: 3px solid red;
     height: 93%;
     margin: 2.5% 2.5% 2.5% 2.5%;
     width: 55%;
+    background-image: url(images/IMG_E2457.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
 }
 .right-flex{
     height: 93%;
@@ -212,6 +216,9 @@ html{
     height: 190vh;
     background-color: white;
     border-radius: 25px;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 .resume-title{
     text-align: center;
