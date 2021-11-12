@@ -115,13 +115,11 @@ html{
 .project-flex-parent{
     display:flex;
     flex-direction: column;
-    border: 2px solid black;
 }
 .project-flex-child{
     display: flex;
     height: 300px;
     margin-top: 50px;
-    border: 2px solid blue;
 }
 .project-icon{
     display: flex;
